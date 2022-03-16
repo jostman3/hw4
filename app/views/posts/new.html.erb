@@ -18,7 +18,9 @@
       <%= form.file_field "uploaded_image", accept: "image/png,image/jpg,image/jpeg", class: "form-control" %>
     </div>
   <p>
+
     <%= form.submit %>
   </p>
   <%= form.hidden_field "place_id" %>
+  <%= form.hidden_field "user_id" %>
 <% end %>
